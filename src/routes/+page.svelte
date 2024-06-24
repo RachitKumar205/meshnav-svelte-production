@@ -42,7 +42,6 @@
             }
         }
     })
-
 </script>
 
 <main bind:this={container} class={`container`}>
@@ -106,12 +105,12 @@
                     <h3 class={`md:text-6xl text-3xl`}>sounds interesting?</h3>
                     <p class={`md:text-2xl text-md mt-2 text-neutral-300`}>We'd love to have you onboard. Sign up now to join the early access waitlist and get exclusive benefits at your favourite malls with mesh.nav</p>
 
-                    <div class={`flex mt-4`}>
+                    <div class={`flex mt-4 justify-center items-center`}>
                         <input
                             class={`bg-transparent border border-neutral-50 rounded-md md:h-[50px] h-[40px] md:w-[500px] w-[200px] md:text-xl text-sm px-2`}
                             placeholder="Enter email address"
                         />
-                        <button class={`bg-neutral-50 hover:opacity-85 active:opacity-80 rounded-md ml-2 md:h-[50px] h-[40px] md:px-8 px-4 text-xl text-zinc-950 montserrat-400`}>Join</button>
+                        <button class={`bg-neutral-50 hover:opacity-85 active:opacity-80 rounded-md ml-2 md:h-[50px] h-[40px] md:px-8 px-2 md:text-xl text-sm text-zinc-950 montserrat-400`}>Join</button>
                     </div>
                 </div>
 
@@ -132,7 +131,6 @@
             <p class={`text-sm text-neutral-400`}>© 2024 MeshNav • All rights reserved • <a href="/">Privacy Policy</a></p>
         </div>
     </section>
-
 </main>
 
 <style>
