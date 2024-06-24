@@ -97,28 +97,28 @@
         </div>
     </section>
 
-    <section class={`contact-page`}>
-        <div class={`relative h-[50vh] w-screen flex flex-col justify-center items-center border-b border-neutral-700`}>
+    <section class={`contact-page `}>
+        <div class={`relative w-screen flex flex-col justify-center items-center border-b border-neutral-700 md:pt-10 pb-10`}>
             <div class={`absolute w-full h-full -z-10 bg-dots fade-o`}></div>
 
-            <div class={`contact-card w-[80%] h-[90%] rounded-xl flex`}>
-                <div class={`w-2/3 px-4 py-4 flex flex-col justify-center`}>
-                    <h3 class={`text-6xl`}>sounds interesting?</h3>
-                    <p class={`text-2xl mt-2 text-neutral-300`}>We'd love to have you onboard. Sign up now to join the early access waitlist and get exclusive benefits at your favourite malls with mesh.nav</p>
+            <div class={`contact-card w-[80%] h-[90%] rounded-xl flex md:flex-row flex-col`}>
+                <div class={`md:w-2/3 w-full px-4 py-4 flex flex-col justify-center`}>
+                    <h3 class={`md:text-6xl text-3xl`}>sounds interesting?</h3>
+                    <p class={`md:text-2xl text-md mt-2 text-neutral-300`}>We'd love to have you onboard. Sign up now to join the early access waitlist and get exclusive benefits at your favourite malls with mesh.nav</p>
 
                     <div class={`flex mt-4`}>
                         <input
-                            class={`bg-transparent border border-neutral-50 rounded-md h-[50px] w-[500px] text-xl px-2`}
+                            class={`bg-transparent border border-neutral-50 rounded-md md:h-[50px] h-[40px] md:w-[500px] w-[200px] md:text-xl text-sm px-2`}
                             placeholder="Enter email address"
                         />
-                        <button class={`bg-neutral-50 hover:opacity-85 active:opacity-80 rounded-md ml-2 h-[50px] px-8 text-xl text-zinc-950 montserrat-400`}>Join</button>
+                        <button class={`bg-neutral-50 hover:opacity-85 active:opacity-80 rounded-md ml-2 md:h-[50px] h-[40px] md:px-8 px-4 text-xl text-zinc-950 montserrat-400`}>Join</button>
                     </div>
                 </div>
 
-                <div class={`w-1/3 flex justify-end px-2 py-2`}>
+                <div class={`md:w-1/3 w-full flex md:justify-end justify-center px-2 py-2`}>
                     <div class={`bg-neutral-800 px-8 py-2 flex flex-col justify-center items-center rounded-xl`}>
                         <img src='/logo.png' alt='logo' class={`h-[200px]`}/>
-                        <p class={`text-3xl montserrat-500 mt-10`}>mesh<span class={`text-purple-500`}>.nav</span></p>
+                        <p class={`text-3xl montserrat-500 md:mt-10 mt-2`}>mesh<span class={`text-purple-500`}>.nav</span></p>
                     </div>
                 </div>
             </div>
@@ -126,7 +126,7 @@
     </section>
 
     <section class={`footer`}>
-        <div class={`h-[80px] pl-10 py-2`}>
+        <div class={`h-[80px] md:pl-10 pl-2 py-2`}>
             <h3 class={`montserrat-500`}>mesh.nav</h3>
             <p class={`text-sm text-neutral-400`}>The future of the personalised retail store experience.</p>
             <p class={`text-sm text-neutral-400`}>© 2024 MeshNav • All rights reserved • <a href="/">Privacy Policy</a></p>
