@@ -48,7 +48,7 @@
 <main bind:this={container} class={`container`}>
     <section class={`title-page`}>
         <div bind:this={title} class={`h-screen w-screen relative grid place-items-center`}>
-            <div class={`absolute h-full w-full bg-dots fade-o -z-10`}></div>
+            <div class={`absolute h-full w-full bg-dots fade-m -z-10`}></div>
 
             {#if (ready)}
                 <div class={`w-fit md:pr-0 pr-2`}>
@@ -72,7 +72,7 @@
 
     <section class={`display-page`}>
         <div class={`relative h-fit w-screen flex justify-center items-center`}>
-            <div class={`absolute h-full w-full bg-dots fade-o -z-10`}></div>
+            <div class={`absolute h-full w-full bg-dots fade-m -z-10`}></div>
             <div class={`md:static showcase-container absolute`}>
                 <div class={`showcase-div`}>
                     <img src={`/images/${displayHomeImg ? 'homepage' : 'nav'}.png`} alt="mockup" class={`showcase-img drop-shadow-2xl shadow-purple-600 shadow-2xl bg-purple-600 rounded-[45px]`}/>
@@ -99,7 +99,7 @@
 
     <section class={`contact-page `}>
         <div class={`relative w-screen flex flex-col justify-center items-center border-b border-neutral-700 md:pt-10 pb-10`}>
-            <div class={`absolute w-full h-full -z-10 bg-dots fade-o`}></div>
+            <div class={`absolute w-full h-full -z-10 bg-dots fade-m`}></div>
 
             <div class={`contact-card w-[80%] h-[90%] rounded-xl flex md:flex-row flex-col`}>
                 <div class={`md:w-2/3 w-full px-4 py-4 flex flex-col justify-center`}>
