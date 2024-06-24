@@ -1,0 +1,24 @@
+.montserrat-400 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.montserrat-500 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.raleway-400 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('/fonts/Montserrat.ttf');
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url('/fonts/Raleway.ttf');
+}
