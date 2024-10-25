@@ -1,38 +1,59 @@
-# create-svelte
+# MeshNav Landing Page
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+This project is the landing page for MeshNav, a custom navigation project. It is built using Svelte and Tailwind CSS.
 
-## Creating a project
+## Project Structure
 
-If you're seeing this, you've probably already done this step. Congrats!
+- `src/routes/+page.svelte`: Main Svelte component for the landing page.
+- `src/styles/globals.css`: Global CSS styles including Tailwind CSS imports.
+- `src/styles/font.css`: Font definitions and imports.
+
+## Prerequisites
+
+- Node.js
+- npm (or yarn/pnpm)
+
+## Installation
+
+Clone the repository and install dependencies:
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+git clone https://github.com/RachitKumar205/meshnav-svelte-production.git
+cd meshnav-svelte-production
+npm install
 ```
 
-## Developing
+## Development
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+To start the development server:
 
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
+
+This will start the server and you can view the landing page at `http://localhost:3000`.
 
 ## Building
 
-To create a production version of your app:
+To create a production build:
 
 ```bash
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+## Previewing
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+To preview the production build:
+
+```bash
+npm run preview
+```
+
+## Styling
+
+- Tailwind CSS is used for styling.
+- Custom fonts are defined in `src/styles/font.css`.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
