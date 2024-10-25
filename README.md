@@ -1,6 +1,6 @@
 # MeshNav Landing Page
 
-This project is the landing page for MeshNav, a custom navigation project. It is built using Svelte and Tailwind CSS.
+This project is the landing page for MeshNav, a custom navigation project. It's built using Svelte and Tailwind CSS.
 
 ## Project Structure
 
